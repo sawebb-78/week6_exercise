@@ -1,0 +1,28 @@
+body {
+	background-color: pink;
+}
+h1 {}
+h2 {}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+}
+
+@media screen and (max-width:600px){
+	h1{
+		font-size: 0.5em;
+	
+	}
+	
+	body{
+		font-size: 32px;
+		margin: 2em;
+	}
+	p{
+		line-height: 1.5em;
+	}
+}
